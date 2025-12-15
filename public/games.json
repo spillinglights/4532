@@ -82,5 +82,11 @@
     "name": "Terminal 13",
     "image": "/assets/Terminal13.png",
     "status": "operational"
+  },
+  {
+    "id": "scary-shawarma",
+    "name": "Scary Shawarma Kiosk",
+    "image": "/assets/Shawarma.png",
+    "status": "operational"
   }
 ]

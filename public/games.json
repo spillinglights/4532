@@ -24,12 +24,6 @@
     "status": "operational"
   },
   {
-    "id": "ink-game",
-    "name": "Ink Game",
-    "image": "/assets/inkgame.jpg",
-    "status": "patched"
-  },
-  {
     "id": "grow-a-garden",
     "name": "Grow a Garden",
     "image": "/assets/gag.jpg",

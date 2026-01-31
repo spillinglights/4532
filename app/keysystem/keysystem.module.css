@@ -317,6 +317,39 @@
   opacity: 0.7;
 }
 
+/* Locked / Unavailable card */
+.locked {
+  opacity: 0.8;
+}
+
+.secondaryButton[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: grayscale(0.2);
+}
+
+.unavailableTooltip {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  pointer-events: none;
+}
+
+.locked:hover .unavailableTooltip,
+.locked:focus-within .unavailableTooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Footer */
 .footer {
   border-top: 1px solid var(--glass-border);

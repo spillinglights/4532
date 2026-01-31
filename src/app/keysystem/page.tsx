@@ -87,7 +87,7 @@ export default function KeySystemPage(): React.JSX.Element {
                 </div>
               </article>
 
-              <article className={styles.card} role="gridcell" aria-labelledby="rinku-title">
+              <article className={`${styles.card} ${styles.locked}`} role="gridcell" aria-labelledby="rinku-title" aria-disabled="true">
                 <div className={styles.cardContent}>
                   <h3 className={styles.cardTitle} id="rinku-title">Rinku</h3>
                   <ul className={styles.featuresList} aria-label="Rinku features">
@@ -95,15 +95,15 @@ export default function KeySystemPage(): React.JSX.Element {
                     <li>100% free method</li>
                     <li>2 Checkpoints</li>
                   </ul>
-                  <a
-                    href="https://ads.luarmor.net/get_key?for=Rinku-ENEvgwqKmNcx"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
                     className={styles.secondaryButton}
-                    aria-label="Get free key via Rinku (external site)"
+                    disabled
+                    aria-disabled="true"
+                    aria-label="Rinku unavailable"
                   >
-                    Get Free Key
-                  </a>
+                    Unavailable
+                  </button>
+                  <div className={styles.unavailableTooltip} role="status" aria-hidden="true">Unavailable</div>
                 </div>
               </article>
 

@@ -18,27 +18,9 @@
     "status": "operational"
   },
   {
-    "id": "dig",
-    "name": "Dig",
-    "image": "/assets/Dig.jpg",
-    "status": "operational"
-  },
-  {
     "id": "grow-a-garden",
     "name": "Grow a Garden",
     "image": "/assets/gag.jpg",
-    "status": "operational"
-  },
-  {
-    "id": "build-a-plane",
-    "name": "Build a Plane",
-    "image": "/assets/buildaplane.jpg",
-    "status": "operational"
-  },
-  {
-    "id": "doors",
-    "name": "Doors",
-    "image": "/assets/Doors.jpg",
     "status": "operational"
   },
   {
@@ -60,21 +42,9 @@
     "status": "operational"
   },
   {
-    "id": "raise-animals",
-    "name": "Raise Animals",
-    "image": "/assets/RaiseAnimals.png",
-    "status": "operational"
-  },
-  {
     "id": "msvd",
     "name": "Murderers Vs. Sheriffs DUELS",
     "image": "/assets/MSVD.png",
-    "status": "operational"
-  },
-  {
-    "id": "terminal-13",
-    "name": "Terminal 13",
-    "image": "/assets/Terminal13.png",
     "status": "operational"
   },
   {
